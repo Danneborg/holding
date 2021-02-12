@@ -1,0 +1,13 @@
+.buttonCustom {
+    float: left;
+    /*width: 10%;*/
+    padding: 10px;
+    color: #806BBC;
+    border: 1px solid #806BBC;
+    /*border-left: none;*/
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.headerRow{
+    margin: 0;
+}

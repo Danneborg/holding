@@ -1,0 +1,24 @@
+body{
+    padding-top: 3rem;
+}
+.filialInfo p{
+    color: #c66cff !important;
+    font-size: 120%;
+    font-weight: 700;
+}
+div.stubContainer{
+    align-items: center;
+    display: flex;
+    min-height: 70vh;
+}
+div.stubContainer > .row{
+    margin: 0 auto;
+}
+#resultsTable td:nth-child(3){
+    width: 10%;
+}
+
+#filterContainer{
+    padding-left: 0;
+    padding-right: 90px;
+}

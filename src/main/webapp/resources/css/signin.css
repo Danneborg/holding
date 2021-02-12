@@ -1,0 +1,178 @@
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+ body {
+/*     display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5; */
+    background: url("/holding/resources/images/bg.png") no-repeat fixed 100% 100px, url("/holding/resources/images/top.png") no-repeat fixed 0 0;
+}
+/*Делаем скролбар невидимым, а то глаза аж режет, спасибо интернету за подсказку*/
+::-webkit-scrollbar {
+    width: 0;
+    background: rgba(255, 255, 255, 0.0);
+}
+/*Customized scrollbar*/
+body::-webkit-scrollbar {
+    overflow-y: scroll;
+    width: 7px;
+    overflow-x: hidden;
+}
+ 
+/* .container:hover {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+.container::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+} */
+
+/* .container{
+    padding-top: 80px;
+    width: 90vw;
+    overflow-y: scroll;
+    height: 70vh;
+    padding: 1.5vw 0.5vw;
+    margin: 0 auto;
+}
+.form-signin {
+    width: 100%;
+    max-width: 1280px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.signButton{
+    color: #806BBC;
+    border: 1px solid #806BBC;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.signButton:hover{
+    background: #806BBC;
+    color: #FFFFFF;
+}
+#innList{
+    width: 100%;
+}
+.header{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #FFFFFF;
+    padding-bottom: 2px;
+    height: 90px;
+}
+*/
+.container{
+	padding-top:5vh;
+}
+.form-signin {
+	width:50%;
+	margin:0 auto;
+	padding-top: 1rem;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.signButton{
+    color: #806BBC;
+    border: 1px solid #806BBC;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.signButton:hover{
+    background: #806BBC;
+    color: #FFFFFF;
+}
+h6{
+	color: #c66cff !important;
+}
+nav img{ 
+	width: auto;
+    height: 60px;
+	left:0;
+}
+
+input[type="text"]{
+    margin-bottom: 10px;
+}
+.password {
+    position: relative;
+}
+.password-control {
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("/holding/resources/images/view.svg") 0 0 no-repeat;
+    z-index: 1000000;
+}
+.password-control.view {
+    background: url("/holding/resources/images/no-view.svg") 0 0 no-repeat;
+}
